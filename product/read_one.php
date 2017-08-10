@@ -23,7 +23,7 @@
   $product->readOne();
 
   //create array
-  $prodcut_arr = array(
+  $product_arr = array(
     "id" => $product->id,
     "name" => $product->name,
     "description" => $product->description,
@@ -33,6 +33,6 @@
   );
 
   //output the product in json format
-  print_r(json_encode($prodcut_arr));
+  print_r(json_encode($product_arr));
 
 ?>
